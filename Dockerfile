@@ -19,7 +19,7 @@ RUN apt-get update
 RUN apt-get install -y wget
 
 # install necessary packages
-RUN apt-get install libgtk2.0-dev
+RUN apt-get install gtk2.0
 
 # get maven 3.3.9
 RUN wget --no-verbose -O /tmp/apache-maven-3.3.9.tar.gz http://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
